@@ -9,3 +9,7 @@ Using [Microsoft ASP.NET documentation/tutorial](https://learn.microsoft.com/en-
 * HTTP Methods
 * Async Programming
 * Claude
+
+
+>[!NOTE]
+>Claude.ai was used in the making of this project.
