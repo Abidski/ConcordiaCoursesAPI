@@ -53,9 +53,9 @@ courses.MapPut("/{id}", async (Course course, CourseDb db) =>
 
 });
 
-courses.MapDelete("/{id}" , async (CourseDb db) => {
+courses.MapDelete("/{id}" , async (CourseDb db, int id) => {
     
-    var result = await db.Courses.FindAsync(course.Id);
+    var result = await db.Courses.FindAsync(id);
 
     if (result == null)
     {
